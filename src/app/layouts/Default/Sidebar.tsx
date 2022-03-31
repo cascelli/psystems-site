@@ -44,9 +44,24 @@ export default function DefaultLayoutSidebar() {
           <Menu.Item key='2' icon={<PlusCircleOutlined />}>
             Cadastro
           </Menu.Item>
-          <Menu.Item key='3'>Grupos</Menu.Item>
-          <Menu.Item key='4'>Permissões</Menu.Item>
-          <Menu.Item key='5'>Alterar Senha</Menu.Item>
+          <Menu.Item
+            key='3'
+            icon={<NotificationOutlined />}
+          >
+            Grupos
+          </Menu.Item>
+          <Menu.Item
+            key='4'
+            icon={<NotificationOutlined />}
+          >
+            Permissões
+          </Menu.Item>
+          <Menu.Item
+            key='5'
+            icon={<NotificationOutlined />}
+          >
+            Alterar Senha
+          </Menu.Item>
         </SubMenu>
         <SubMenu
           key='sub2'
