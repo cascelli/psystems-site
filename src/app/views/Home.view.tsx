@@ -1,10 +1,9 @@
 import { Col, Row, Typography } from 'antd';
-
-import Pagina1 from './app/features/Pagina1';
+import Pagina1 from '../features/Pagina1';
 
 const { Title, Paragraph } = Typography;
 
-function App() {
+function HomeView() {
   return (
     <Row>
       <Col span={24}>
@@ -18,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomeView;
