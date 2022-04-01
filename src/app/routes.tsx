@@ -2,7 +2,7 @@
 // dependencies => react-router-dom na versao 5.2.0
 // devDependencies => @Types/react-router-dom na versao 5.1.8
 import {
-  BrowserRouter,
+  // BrowserRouter,
   Route,
   Switch,
 } from 'react-router-dom';
@@ -13,20 +13,20 @@ import UserListView from './views/UserList.view';
 
 export default function Routes() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path={'/'} exact component={HomeView} />
-        <Route
-          path={'/usuarios/criacao'}
-          exact
-          component={UserCreateView}
-        />
-        <Route
-          path={'/usuarios'}
-          exact
-          component={UserListView}
-        />
-      </Switch>
-    </BrowserRouter>
+    // <BrowserRouter> // transferido para src/index.tsx para evitar erro
+    <Switch>
+      <Route path={'/'} exact component={HomeView} />
+      <Route
+        path={'/usuarios/cadastro'}
+        exact
+        component={UserCreateView}
+      />
+      <Route
+        path={'/usuarios'}
+        exact
+        component={UserListView}
+      />
+    </Switch>
+    // </BrowserRouter>
   );
 }

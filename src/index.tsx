@@ -12,15 +12,18 @@ import './index.css';
 import DefaultLayout from './app/layouts/Default';
 
 import Routes from './app/routes';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Provider store={store}> */}
-    <DefaultLayout>
-      {/* <App /> */}
-      <Routes />
-    </DefaultLayout>
-    {/* </Provider> */}
+    <BrowserRouter>
+      <DefaultLayout>
+        {/* <App /> */}
+        <Routes />
+      </DefaultLayout>
+      {/* </Provider> */}
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
