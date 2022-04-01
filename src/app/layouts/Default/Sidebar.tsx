@@ -46,11 +46,11 @@ export default function DefaultLayoutSidebar() {
         >
           <a
             // Criando link para site externo a partir de item do menu
-            href='https://task.com.br'
+            href='https://nextcloud.com'
             target='_blank'
             rel='noreferrer'
           >
-            Task
+            Nuvem
           </a>
         </Menu.Item>
 
