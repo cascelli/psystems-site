@@ -12,7 +12,7 @@ import {
   DiffOutlined,
 } from '@ant-design/icons';
 
-import { useHistory } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 
 const { Sider } = Layout; // Primeiro importa o Layout e depois desconstroi o Sider do Layout
 const { SubMenu } = Menu; // Primeiro importa o Menu e depois desconstroi o SubMenu do Menu
@@ -33,11 +33,25 @@ export default function DefaultLayoutSidebar() {
         style={{ height: '100%', borderRight: 0 }}
       >
         <Menu.Item
-          key={'/'}
+          key={'0'}
           onClick={() => history.push('/')}
           icon={<HomeOutlined />}
         >
-          Home
+          <Link to={'/'}>Home</Link>
+        </Menu.Item>
+        <Menu.Item
+          key={'1'}
+          // onClick={() => history.push('/')}
+          icon={<HomeOutlined />}
+        >
+          <a
+            // Criando link para site externo a partir de item do menu
+            href='https://task.com.br'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Task
+          </a>
         </Menu.Item>
 
         <SubMenu
@@ -50,7 +64,7 @@ export default function DefaultLayoutSidebar() {
             onClick={() => history.push('/usuarios')}
             icon={<TableOutlined />}
           >
-            Consulta
+            <Link to={'/usuarios'}>Consulta</Link>
           </Menu.Item>
           <Menu.Item
             key='/usuarios/cadastro'
@@ -59,7 +73,7 @@ export default function DefaultLayoutSidebar() {
             }
             icon={<PlusCircleOutlined />}
           >
-            Cadastro
+            <Link to={'/usuarios/cadastro'}>Cadastro</Link>
           </Menu.Item>
           <Menu.Item
             key='3'
