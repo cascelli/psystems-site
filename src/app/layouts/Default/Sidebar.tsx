@@ -12,13 +12,28 @@ import {
   DiffOutlined,
 } from '@ant-design/icons';
 
-import { Link, useHistory } from 'react-router-dom';
+import {
+  Link,
+  useHistory,
+  useLocation,
+} from 'react-router-dom';
+import { useEffect } from 'react';
 
 const { Sider } = Layout; // Primeiro importa o Layout e depois desconstroi o Sider do Layout
 const { SubMenu } = Menu; // Primeiro importa o Menu e depois desconstroi o SubMenu do Menu
 
 export default function DefaultLayoutSidebar() {
   const history = useHistory();
+  const location = useLocation();
+
+  // Debug de location
+  /*
+  useEffect(() => {
+    console.log(location);
+    console.log(location.pathname.split('/'[1]));
+  }, [location]); // Toda vez que mudar a location o hook useEffect é executado
+  */
+
   return (
     <Sider
       width={200}
@@ -28,20 +43,24 @@ export default function DefaultLayoutSidebar() {
     >
       <Menu
         mode='inline'
-        defaultSelectedKeys={['1']}
-        defaultOpenKeys={['sub1']}
+        // defaultSelectedKeys={['1']} // Trocando de um valor fixo para um valor dinamico
+        defaultSelectedKeys={[location.pathname]}
+        // defaultOpenKeys={['sub1']} // Trocando de um valor fixo para um valor dinamico
+        defaultOpenKeys={[location.pathname.split('/')[1]]}
         style={{ height: '100%', borderRight: 0 }}
       >
         <Menu.Item
-          key={'0'}
+          // key={'0'}
+          key={'/'}
           onClick={() => history.push('/')}
           icon={<HomeOutlined />}
         >
           <Link to={'/'}>Home</Link>
         </Menu.Item>
         <Menu.Item
-          key={'1'}
-          // onClick={() => history.push('/')}
+          // key={'1'}
+          key={'/nextcloud'}
+          onClick={() => history.push('/nextcloud')}
           icon={<HomeOutlined />}
         >
           <a
@@ -55,7 +74,8 @@ export default function DefaultLayoutSidebar() {
         </Menu.Item>
 
         <SubMenu
-          key='sub1'
+          // key='sub1'
+          key='usuarios'
           icon={<UserOutlined />}
           title='Usuários'
         >
@@ -76,46 +96,83 @@ export default function DefaultLayoutSidebar() {
             <Link to={'/usuarios/cadastro'}>Cadastro</Link>
           </Menu.Item>
           <Menu.Item
-            key='3'
+            key='/usuarios/grupos'
+            onClick={() => history.push('/usuarios/grupos')}
             icon={<NotificationOutlined />}
           >
-            Grupos
+            <Link to={'/usuarios/grupos'}>Grupos</Link>
           </Menu.Item>
           <Menu.Item
-            key='4'
+            key='/usuarios/permissoes'
+            onClick={() =>
+              history.push('/usuarios/permissoes')
+            }
             icon={<NotificationOutlined />}
           >
-            Permissões
+            <Link to={'/usuarios/grupos'}>Permissões</Link>
           </Menu.Item>
           <Menu.Item
-            key='5'
+            key='/usuarios/alterar-senha'
+            onClick={() =>
+              history.push('/usuarios/alterar-senha')
+            }
             icon={<NotificationOutlined />}
           >
-            Alterar Senha
+            <Link to={'/usuarios/grupos'}>
+              Alterar senha
+            </Link>
           </Menu.Item>
         </SubMenu>
         <SubMenu
-          key='sub2'
+          // key='sub2'
+          key='pagamentos'
           icon={<LaptopOutlined />}
           title='Pagamentos'
         >
-          <Menu.Item key='6' icon={<TableOutlined />}>
-            Consulta
+          <Menu.Item
+            key='/pagamentos'
+            onClick={() => history.push('/pagamentos')}
+            icon={<TableOutlined />}
+          >
+            <Link to={'/pagamentos'}>Consulta</Link>
           </Menu.Item>
-          <Menu.Item key='7' icon={<PlusCircleOutlined />}>
-            Cadastro
+          <Menu.Item
+            key='/pagamentos/cadastro'
+            onClick={() =>
+              history.push('/pagamentos/cadastro')
+            }
+            icon={<PlusCircleOutlined />}
+          >
+            <Link to={'/pagamentos'}>Cadastro</Link>
           </Menu.Item>
         </SubMenu>
         <SubMenu
-          key='sub3'
+          // key='sub3'
+          key='fluxo-de-caixa'
           icon={<DiffOutlined />}
           title='Fluxo de Caixa'
         >
-          <Menu.Item key='8' icon={<FallOutlined />}>
-            Despesa
+          <Menu.Item
+            key='/fluxo-de-caixa/despesa'
+            onClick={() =>
+              history.push('/fluxo-de-caixa/despesa')
+            }
+            icon={<FallOutlined />}
+          >
+            <Link to={'/fluxo-de-caixa/despesa'}>
+              Despesa
+            </Link>
           </Menu.Item>
-          <Menu.Item key='9' icon={<RiseOutlined />}>
-            Receita
+          <Menu.Item
+            key='/fluxo-de-caixa/receita'
+            onClick={() =>
+              history.push('/fluxo-de-caixa/receita')
+            }
+            icon={<RiseOutlined />}
+          >
+            <Link to={'/fluxo-de-caixa/receita'}>
+              Receita
+            </Link>
           </Menu.Item>
         </SubMenu>
       </Menu>
