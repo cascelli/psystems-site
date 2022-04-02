@@ -1,4 +1,5 @@
-import { Menu, Layout, Row, Avatar } from 'antd';
+// import { Menu, Layout, Row, Avatar } from 'antd';
+import { Layout, Row, Avatar } from 'antd';
 import logo from '../../../assets/logo.svg';
 
 const { Header } = Layout; // Primeiro importa o Layout e depois desconstroi o Header do Layout
@@ -47,18 +48,39 @@ export default function DefaultLayoutHeader() {
 
       <Row
         justify={'space-between'}
-        style={{ height: '100%' }}
+        style={{
+          height: '100%',
+          maxWidth: 1190,
+          margin: '0 auto',
+        }}
         align='middle'
       >
         <img src={logo} alt='Alganews Admin'></img>
         <span style={{ color: 'white' }}>
-          <a href='https://webmail.task.com.br/'>
+          <a
+            href='https://webmail.task.com.br/'
+            target='_blank'
+            rel='noreferrer'
+          >
             WebMail |{' '}
           </a>
-          <a href='https://nextcloud.com'>Sistemas | </a>
-          <a href='https://nextcloud.com'>Contato</a>
+          <a
+            href='https://guacamole.apache.org/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Corporativo |{' '}
+          </a>
+          <a
+            href='https://nextcloud.com'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Nuvem
+          </a>
+          {/* <Avatar /> */}
         </span>
-        {/* <Avatar /> */}
+        <Avatar />
       </Row>
     </Header>
   );
