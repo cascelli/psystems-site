@@ -1,5 +1,5 @@
 // import { Menu, Layout, Row, Avatar } from 'antd';
-import { Layout, Row, Avatar } from 'antd';
+import { Layout, Row, Avatar, Space } from 'antd';
 import logo from '../../../assets/logo.svg';
 
 const { Header } = Layout; // Primeiro importa o Layout e depois desconstroi o Header do Layout
@@ -56,31 +56,42 @@ export default function DefaultLayoutHeader() {
         align='middle'
       >
         <img src={logo} alt='Alganews Admin'></img>
-        <span style={{ color: 'white' }}>
-          <a
-            href='https://webmail.task.com.br/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            WebMail |{' '}
-          </a>
-          <a
-            href='https://guacamole.apache.org/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            Corporativo |{' '}
-          </a>
-          <a
-            href='https://nextcloud.com'
-            target='_blank'
-            rel='noreferrer'
-          >
-            Nuvem
-          </a>
+
+        <span style={{ color: 'darkblue' }}>
+          {/* Define um espacamento entre os elementos */}
+          <Space>
+            <a
+              // style={{ textDecoration: 'none' }}
+              href='https://webmail.task.com.br/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              WebMail
+            </a>
+            {/* insee uma barra de divisao entre os links */}
+            {'|'}
+            <a
+              href='https://guacamole.apache.org/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Corporativo
+            </a>
+            {/* insee uma barra de divisao entre os links */}
+            {'|'}
+            <a
+              href='https://nextcloud.com'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Nuvem
+            </a>
+            {/* insere uma imagem de avatar de tamanho small */}
+            <Avatar size={'small'} />
+          </Space>
           {/* <Avatar /> */}
         </span>
-        <Avatar />
+        {/* <Avatar /> */}
       </Row>
     </Header>
   );
