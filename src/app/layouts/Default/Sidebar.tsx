@@ -10,6 +10,9 @@ import {
   RiseOutlined,
   FallOutlined,
   DiffOutlined,
+  GlobalOutlined,
+  CloudOutlined,
+  DesktopOutlined,
 } from '@ant-design/icons';
 
 import {
@@ -57,11 +60,12 @@ export default function DefaultLayoutSidebar() {
         >
           <Link to={'/'}>Home</Link>
         </Menu.Item>
+
         <Menu.Item
           // key={'1'}
           key={'/nextcloud'}
           onClick={() => history.push('/nextcloud')}
-          icon={<HomeOutlined />}
+          icon={<CloudOutlined />}
         >
           <a
             // Criando link para site externo a partir de item do menu
@@ -71,6 +75,31 @@ export default function DefaultLayoutSidebar() {
           >
             Nuvem
           </a>
+        </Menu.Item>
+
+        <Menu.Item
+          // key={'1'}
+          key={'/corporativo'}
+          onClick={() => history.push('/corporativo')}
+          icon={<DesktopOutlined />}
+        >
+          <a
+            // Criando link para site externo a partir de item do menu
+            href='https://guacamole.apache.org/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Corporativo
+          </a>
+        </Menu.Item>
+
+        <Menu.Item
+          // key={'1'}
+          key={'/sites'}
+          onClick={() => history.push('/sites')}
+          icon={<GlobalOutlined />}
+        >
+          <Link to={'/sites'}>Sites</Link>
         </Menu.Item>
 
         <SubMenu

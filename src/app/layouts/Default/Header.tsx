@@ -68,7 +68,7 @@ export default function DefaultLayoutHeader() {
             >
               WebMail
             </a>
-            {/* insee uma barra de divisao entre os links */}
+            {/* insere uma barra de divisao entre os links */}
             {'|'}
             <a
               href='https://guacamole.apache.org/'
@@ -77,7 +77,7 @@ export default function DefaultLayoutHeader() {
             >
               Corporativo
             </a>
-            {/* insee uma barra de divisao entre os links */}
+            {/* insere uma barra de divisao entre os links */}
             {'|'}
             <a
               href='https://nextcloud.com'

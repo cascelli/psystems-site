@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 
 import HomeView from './views/Home.view';
+import SiteListView from './views/SiteList.view';
 import UserCreateView from './views/UserCreate.view';
 import UserListView from './views/UserList.view';
 
@@ -25,6 +26,12 @@ export default function Routes() {
         path={'/usuarios'}
         exact
         component={UserListView}
+      />
+
+      <Route
+        path={'/sites'}
+        exact
+        component={SiteListView}
       />
     </Switch>
     // </BrowserRouter>
