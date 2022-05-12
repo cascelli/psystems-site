@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.google.com",
+    "description": "Google"
+  },
+  {
+    "id": 2,
+    "url": "https://www.microsoft.com",
+    "description": "Microsoft"
+  },
+  {
+    "id": 3,
+    "url": "https://www.debian.org",
+    "description": "Debian Linux"
+  },
+  {
+    "id": 4,
+    "url": "https://www.nextcloud.com",
+    "description": "Nextcloud"
+  },
+  {
+    "id": 5,
+    "url": "https://linuxmint.com",
+    "description": "Linux Mint"
+  },
+  {
+    "id": 6,
+    "url": "https://ubuntu.com",
+    "description": "Ubuntu Linux"
+  }
+]
