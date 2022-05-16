@@ -13,7 +13,7 @@ class PostService extends Service {
     // Http vem da classe Service que vem do Axios
     // <Post.Paginated> é o tipo de retorno esperado da requisicao
     // return this.Http.get<Post.Paginated>('/posts').then(
-    // Acrescenta a queryString no final da requisição
+    // Acrescenta a queryString no final da requisição com o metodo concat()
     return this.Http.get<Post.Paginated>(
       '/posts'.concat(queryString)
     ).then(

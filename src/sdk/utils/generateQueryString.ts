@@ -23,7 +23,7 @@ function generateQueryString(
     if (param) convertedParams[key] = String(param);
   });
 
-  // Obtém um objeto
+  // Obtém um objeto (UrlSearchParams é uma classe do JavaScript moderno)
   const urlParams = new URLSearchParams(convertedParams);
 
   // Converte o objeto em string e acrescenta o poto de interrogacao antes da mesma
