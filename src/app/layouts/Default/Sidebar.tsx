@@ -12,14 +12,19 @@ import {
   DiffOutlined,
   GlobalOutlined,
   CloudOutlined,
+  IdcardOutlined,
+  ProfileOutlined,
+  ReadOutlined,
+  LayoutOutlined,
   DesktopOutlined,
+  CalendarOutlined,
+  MedicineBoxOutlined,
+  ReconciliationOutlined,
+  AuditOutlined,
+  PartitionOutlined,
 } from '@ant-design/icons';
 
-import {
-  Link,
-  useHistory,
-  useLocation,
-} from 'react-router-dom';
+import { Link, useHistory, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 
 const { Sider } = Layout; // Primeiro importa o Layout e depois desconstroi o Sider do Layout
@@ -63,6 +68,92 @@ export default function DefaultLayoutSidebar() {
 
         <Menu.Item
           // key={'1'}
+          key={'/atuacao'}
+          onClick={() => history.push('/atuacao')}
+          icon={<ProfileOutlined />}
+        >
+          <Link to={'/atuacao'}>Atuação</Link>
+        </Menu.Item>
+
+        <SubMenu
+          // key='sub1'
+          key='Aplicativos'
+          icon={<LayoutOutlined />}
+          title='Aplicativos'
+        >
+          <Menu.Item
+            key='/aplicativos/pappts'
+            onClick={() => history.push('/aplicativos/pappts')}
+            icon={<CalendarOutlined />}
+          >
+            <Link to={'/aplicativos/pappts'}>Power Appoints</Link>
+          </Menu.Item>
+          <Menu.Item
+            key='/aplicativos/pmed'
+            onClick={() => history.push('/aplicativos/pmed')}
+            icon={<MedicineBoxOutlined />}
+          >
+            <Link to={'/aplicativos/pmed'}>Power Med</Link>
+          </Menu.Item>
+          <Menu.Item
+            key='/aplicativos/pclinic'
+            onClick={() => history.push('/aplicativos/pclinic')}
+            icon={<MedicineBoxOutlined />}
+          >
+            <Link to={'/aplicativos/pclinic'}>Power Clinic</Link>
+          </Menu.Item>
+          <Menu.Item
+            key='/aplicativos/ppack'
+            onClick={() => history.push('/aplicativos/ppack')}
+            icon={<ReconciliationOutlined />}
+          >
+            <Link to={'/aplicativos/ppack'}>Power Pack</Link>
+          </Menu.Item>
+          <Menu.Item
+            key='/aplicativos/pproc'
+            onClick={() => history.push('/aplicativos/pproc')}
+            icon={<AuditOutlined />}
+          >
+            <Link to={'/aplicativos/pproc'}>Power Process</Link>
+          </Menu.Item>
+          <Menu.Item
+            key='/aplicativos/pfa'
+            onClick={() => history.push('/aplicativos/pfa')}
+            icon={<PartitionOutlined />}
+          >
+            <Link to={'/aplicativos/pfa'}>Failure Analysis</Link>
+          </Menu.Item>
+        </SubMenu>
+
+        <Menu.Item
+          // key={'1'}
+          key={'/clientes'}
+          onClick={() => history.push('/clientes')}
+          icon={<ReadOutlined />}
+        >
+          <Link to={'/clientes'}>Clientes</Link>
+        </Menu.Item>
+
+        <Menu.Item
+          // key={'1'}
+          key={'/contato'}
+          onClick={() => history.push('/contato')}
+          icon={<IdcardOutlined />}
+        >
+          <Link to={'/contato'}>Contato</Link>
+        </Menu.Item>
+
+        <Menu.Item
+          // key={'1'}
+          key={'/sites'}
+          onClick={() => history.push('/sites')}
+          icon={<GlobalOutlined />}
+        >
+          <Link to={'/sites'}>Sites Úteis</Link>
+        </Menu.Item>
+
+        <Menu.Item
+          // key={'1'}
           key={'/nextcloud'}
           onClick={() => history.push('/nextcloud')}
           icon={<CloudOutlined />}
@@ -93,16 +184,7 @@ export default function DefaultLayoutSidebar() {
           </a>
         </Menu.Item>
 
-        <Menu.Item
-          // key={'1'}
-          key={'/sites'}
-          onClick={() => history.push('/sites')}
-          icon={<GlobalOutlined />}
-        >
-          <Link to={'/sites'}>Sites</Link>
-        </Menu.Item>
-
-        <SubMenu
+        {/* <SubMenu
           // key='sub1'
           key='usuarios'
           icon={<UserOutlined />}
@@ -117,9 +199,7 @@ export default function DefaultLayoutSidebar() {
           </Menu.Item>
           <Menu.Item
             key='/usuarios/cadastro'
-            onClick={() =>
-              history.push('/usuarios/cadastro')
-            }
+            onClick={() => history.push('/usuarios/cadastro')}
             icon={<PlusCircleOutlined />}
           >
             <Link to={'/usuarios/cadastro'}>Cadastro</Link>
@@ -133,23 +213,17 @@ export default function DefaultLayoutSidebar() {
           </Menu.Item>
           <Menu.Item
             key='/usuarios/permissoes'
-            onClick={() =>
-              history.push('/usuarios/permissoes')
-            }
+            onClick={() => history.push('/usuarios/permissoes')}
             icon={<NotificationOutlined />}
           >
             <Link to={'/usuarios/grupos'}>Permissões</Link>
           </Menu.Item>
           <Menu.Item
             key='/usuarios/alterar-senha'
-            onClick={() =>
-              history.push('/usuarios/alterar-senha')
-            }
+            onClick={() => history.push('/usuarios/alterar-senha')}
             icon={<NotificationOutlined />}
           >
-            <Link to={'/usuarios/grupos'}>
-              Alterar senha
-            </Link>
+            <Link to={'/usuarios/grupos'}>Alterar senha</Link>
           </Menu.Item>
         </SubMenu>
         <SubMenu
@@ -167,9 +241,7 @@ export default function DefaultLayoutSidebar() {
           </Menu.Item>
           <Menu.Item
             key='/pagamentos/cadastro'
-            onClick={() =>
-              history.push('/pagamentos/cadastro')
-            }
+            onClick={() => history.push('/pagamentos/cadastro')}
             icon={<PlusCircleOutlined />}
           >
             <Link to={'/pagamentos'}>Cadastro</Link>
@@ -183,27 +255,19 @@ export default function DefaultLayoutSidebar() {
         >
           <Menu.Item
             key='/fluxo-de-caixa/despesa'
-            onClick={() =>
-              history.push('/fluxo-de-caixa/despesa')
-            }
+            onClick={() => history.push('/fluxo-de-caixa/despesa')}
             icon={<FallOutlined />}
           >
-            <Link to={'/fluxo-de-caixa/despesa'}>
-              Despesa
-            </Link>
+            <Link to={'/fluxo-de-caixa/despesa'}>Despesa</Link>
           </Menu.Item>
           <Menu.Item
             key='/fluxo-de-caixa/receita'
-            onClick={() =>
-              history.push('/fluxo-de-caixa/receita')
-            }
+            onClick={() => history.push('/fluxo-de-caixa/receita')}
             icon={<RiseOutlined />}
           >
-            <Link to={'/fluxo-de-caixa/receita'}>
-              Receita
-            </Link>
+            <Link to={'/fluxo-de-caixa/receita'}>Receita</Link>
           </Menu.Item>
-        </SubMenu>
+        </SubMenu> */}
       </Menu>
     </Sider>
   );

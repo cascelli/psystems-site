@@ -12,10 +12,8 @@ function SiteListView() {
   return (
     <Row>
       <Col span={24}>
-        <Title level={3}>Site List View - Título</Title>
-        <Paragraph>
-          Este é o conteúdo da Site List View
-        </Paragraph>
+        <Title level={4}>Site List View - Título</Title>
+        <Paragraph>Este é o conteúdo da Site List View</Paragraph>
       </Col>
       <Col span={24}>
         <SitesList />

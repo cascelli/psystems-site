@@ -6,33 +6,33 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
-
 import HomeView from './views/Home.view';
 import SiteListView from './views/SiteList.view';
 import UserCreateView from './views/UserCreate.view';
 import UserListView from './views/UserList.view';
+import AtuacaoView from './views/Atuacao.view';
+import ContatoView from './views/Contato.view';
+import ClientesView from './views/Clientes.view';
 
 export default function Routes() {
   return (
     // <BrowserRouter> // transferido para src/index.tsx para evitar erro
     <Switch>
       <Route path={'/'} exact component={HomeView} />
-      <Route
-        path={'/usuarios/cadastro'}
-        exact
-        component={UserCreateView}
-      />
-      <Route
-        path={'/usuarios'}
-        exact
-        component={UserListView}
-      />
+      <Route path={'/usuarios/cadastro'} exact component={UserCreateView} />
+      <Route path={'/usuarios'} exact component={UserListView} />
 
-      <Route
-        path={'/sites'}
-        exact
-        component={SiteListView}
-      />
+      <Route path={'/sites'} exact component={SiteListView} />
+      <Route path={'/atuacao'} exact component={AtuacaoView} />
+      {/* <Route path={'/aplicativos/pappts'} exact component={PApptsView} /> */}
+      {/* <Route path={'/aplicativos/pmed'} exact component={PMedView} /> */}
+      {/* <Route path={'/aplicativos/pclinic'} exact component={PClinicView} /> */}
+      {/* <Route path={'/aplicativos/ppack'} exact component={PPackView} /> */}
+      {/* <Route path={'/aplicativos/pproc'} exact component={PProcView} /> */}
+      {/* <Route path={'/aplicativos/pappts'} exact component={PPackView} /> */}
+      {/* <Route path={'/aplicativos/pfa'} exact component={PFAView} /> */}
+      <Route path={'/clientes'} exact component={ClientesView} />
+      <Route path={'/contato'} exact component={ContatoView} />
     </Switch>
     // </BrowserRouter>
   );
