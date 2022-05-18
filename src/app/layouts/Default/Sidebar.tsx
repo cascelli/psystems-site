@@ -10,6 +10,8 @@ import {
   RiseOutlined,
   FallOutlined,
   DiffOutlined,
+  FundViewOutlined,
+  SnippetsOutlined,
   GlobalOutlined,
   CloudOutlined,
   IdcardOutlined,
@@ -122,6 +124,22 @@ export default function DefaultLayoutSidebar() {
             icon={<PartitionOutlined />}
           >
             <Link to={'/aplicativos/pfa'}>Failure Analysis</Link>
+          </Menu.Item>
+
+          <Menu.Item
+            key='/aplicativos/pcont'
+            onClick={() => history.push('/aplicativos/pcont')}
+            icon={<FundViewOutlined />}
+          >
+            <Link to={'/aplicativos/pcont'}>Power Contábil</Link>
+          </Menu.Item>
+
+          <Menu.Item
+            key='/aplicativos/autocond'
+            onClick={() => history.push('/aplicativos/autocond')}
+            icon={<SnippetsOutlined />}
+          >
+            <Link to={'/aplicativos/autocond'}>Aut. Condomínio</Link>
           </Menu.Item>
         </SubMenu>
 

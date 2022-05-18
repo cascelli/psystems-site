@@ -13,6 +13,14 @@ import UserListView from './views/UserList.view';
 import AtuacaoView from './views/Atuacao.view';
 import ContatoView from './views/Contato.view';
 import ClientesView from './views/Clientes.view';
+import PApptsView from './views/PAppts.view';
+import PMedView from './views/PMed.view';
+import PClinicView from './views/PClinic.view';
+import PPackView from './views/PPack.view';
+import PProcView from './views/PProc.view';
+import PFAView from './views/PFA.view';
+import AutoCondView from './views/AutoCond.view';
+import PContView from './views/PCont.view';
 
 export default function Routes() {
   return (
@@ -24,13 +32,14 @@ export default function Routes() {
 
       <Route path={'/sites'} exact component={SiteListView} />
       <Route path={'/atuacao'} exact component={AtuacaoView} />
-      {/* <Route path={'/aplicativos/pappts'} exact component={PApptsView} /> */}
-      {/* <Route path={'/aplicativos/pmed'} exact component={PMedView} /> */}
-      {/* <Route path={'/aplicativos/pclinic'} exact component={PClinicView} /> */}
-      {/* <Route path={'/aplicativos/ppack'} exact component={PPackView} /> */}
-      {/* <Route path={'/aplicativos/pproc'} exact component={PProcView} /> */}
-      {/* <Route path={'/aplicativos/pappts'} exact component={PPackView} /> */}
-      {/* <Route path={'/aplicativos/pfa'} exact component={PFAView} /> */}
+      <Route path={'/aplicativos/pappts'} exact component={PApptsView} />
+      <Route path={'/aplicativos/pmed'} exact component={PMedView} />
+      <Route path={'/aplicativos/pclinic'} exact component={PClinicView} />
+      <Route path={'/aplicativos/ppack'} exact component={PPackView} />
+      <Route path={'/aplicativos/pproc'} exact component={PProcView} />
+      <Route path={'/aplicativos/pfa'} exact component={PFAView} />
+      <Route path={'/aplicativos/autocond'} exact component={AutoCondView} />
+      <Route path={'/aplicativos/pcontcont'} exact component={PContView} />
       <Route path={'/clientes'} exact component={ClientesView} />
       <Route path={'/contato'} exact component={ContatoView} />
     </Switch>

@@ -1,5 +1,5 @@
 import { Col, Row, Typography } from 'antd';
-import Pagina1 from '../features/Pagina1';
+import Home from '../features/Home';
 
 const { Title, Paragraph } = Typography;
 
@@ -7,8 +7,8 @@ function HomeView() {
   return (
     <Row>
       <Col span={24}>
-        <Title level={4}>Página 1 - Título</Title>
-        <Paragraph>Este é o conteúdo da página 1</Paragraph>
+        <Title level={4}>Power Systems - Home</Title>
+        <Paragraph>Este é o conteúdo da Home</Paragraph>
         <Paragraph>
           ToDo : Implementar Feature com componente carousel
         </Paragraph>
@@ -23,7 +23,7 @@ function HomeView() {
         </Paragraph>
       </Col>
       <Col span={24}>
-        <Pagina1 />
+        <Home />
       </Col>
     </Row>
   );

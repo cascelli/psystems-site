@@ -12,8 +12,13 @@ function SiteListView() {
   return (
     <Row>
       <Col span={24}>
-        <Title level={4}>Site List View - Título</Title>
-        <Paragraph>Este é o conteúdo da Site List View</Paragraph>
+        <Title level={4}>Sites Úteis</Title>
+        <Paragraph>Este é o conteúdo de Site List View</Paragraph>
+        <Paragraph>
+          Listamos abaixo referências de sites e parceiros de negócios com
+          funcionalidades utilizadas em nossas soluções passíveis de serem
+          necessárias em algum momento por nossos clientes.
+        </Paragraph>
       </Col>
       <Col span={24}>
         <SitesList />
