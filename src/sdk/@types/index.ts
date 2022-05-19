@@ -7,8 +7,9 @@ export type { Payment } from './Payment';
 // Tipo especial para lidar com upload de arquivos
 export type { File } from './File';
 
-// Teste de link buscando arquivo json dentro da pasta assets/dados do App
+// Buscando dados em arquivos json dentro da pasta assets/dados do App
 export type { UrlLink } from './UrlLink';
+export type { Cliente } from './Cliente';
 
 // AlgaNews
 //export type { AlgaNews } from './AlgaNews'

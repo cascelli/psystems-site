@@ -39,7 +39,7 @@ export default function Routes() {
       <Route path={'/aplicativos/pproc'} exact component={PProcView} />
       <Route path={'/aplicativos/pfa'} exact component={PFAView} />
       <Route path={'/aplicativos/autocond'} exact component={AutoCondView} />
-      <Route path={'/aplicativos/pcontcont'} exact component={PContView} />
+      <Route path={'/aplicativos/pcont'} exact component={PContView} />
       <Route path={'/clientes'} exact component={ClientesView} />
       <Route path={'/contato'} exact component={ContatoView} />
     </Switch>

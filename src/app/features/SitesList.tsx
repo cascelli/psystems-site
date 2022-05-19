@@ -73,12 +73,7 @@ export default function SitesList() {
 
   return (
     <div>
-      ToDo: SitesList
-      <Table
-        dataSource={links}
-        columns={columns}
-        rowKey='id'
-      />
+      <Table dataSource={links} columns={columns} rowKey='id' />
     </div>
   );
 }

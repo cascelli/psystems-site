@@ -209,11 +209,19 @@ export namespace Apl {
 
   export interface components {
     schemas: {
-      // ??? Teste de Classe com dados em arquivo JSON dentro da pasta assets/dados
+      // Classe com dados em arquivo JSON dentro da pasta assets/dados
       /** Links de urls da internet */
       UrlLink: {
         id: number;
         url: string;
+        description: string;
+      };
+
+      // ??? Classe com dados em arquivo JSON dentro da pasta assets/dados
+      /** Clientes */
+      Cliente: {
+        id: number;
+        url?: string;
         description: string;
       };
 

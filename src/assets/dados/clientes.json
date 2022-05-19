@@ -1,0 +1,294 @@
+[
+  {
+    "id": 1,
+    "description": "Administradora Metrópole"
+  },
+  {
+    "id": 2,
+    "description": "Arbra Indústria e Comércio de Plásticos"
+  },
+  {
+    "id": 3,
+    "description": "Atelmig Comercial - Produtos para fundição"
+  },
+  {
+    "id": 4,
+    "description": "Azevedo Sette Advogados"
+  },
+  {
+    "id": 5,
+    "description": "Balanças Precisas"
+  },
+  {
+    "id": 6,
+    "description": "Barroso, Muzzi e Associados - Advocacia e Consultoria Empresarial"
+  },
+  {
+    "id": 7,
+    "description": "Bentonit União Nordeste - Produtos para fundição"
+  },
+  {
+    "id": 8,
+    "description": "Bomb.a.r. - Boate"
+  },
+  {
+    "id": 9,
+    "description": "Lithocentro - Centro de tratamento de cálculo renal e biliar"
+  },
+  {
+    "id": 10,
+    "description": "Cardicli - Clínica de Cardiologia"
+  },
+  {
+    "id": 11,
+    "description": "Viver Bem - Clínica de Cardiologia"
+  },
+  {
+    "id": 12,
+    "description": "CENEMGE - Clínica de Nefrologia de Minas Gerais"
+  },
+  {
+    "id": 13,
+    "description": "Centro Médico - Clínica de Endocrinologia"
+  },
+  {
+    "id": 14,
+    "description": "CLINEMGE - Clínica de Nefrologia de Minas Gerais"
+  },
+  {
+    "id": 15,
+    "description": "Clínica Antonio Moreira"
+  },
+  {
+    "id": 16,
+    "description": "Clínica Radiológica Evaldo Furtado"
+  },
+  {
+    "id": 17,
+    "description": "Computime Network - Manutenção e Consultoria em informática"
+  },
+  {
+    "id": 18,
+    "description": "COPASA - Companhia de Água e Saneamento de Minas Gerais"
+  },
+  {
+    "id": 19,
+    "description": "Contabilidade Ramos Santanna"
+  },
+  {
+    "id": 20,
+    "description": "COREMA - Andrade Comércio e Representações de Máquinas Ltda"
+  },
+  {
+    "id": 21,
+    "description": "Delta Montagens Eletromecânicas Ltda"
+  },
+  {
+    "id": 22,
+    "description": "DIMETA representações Ltda"
+  },
+  {
+    "id": 23,
+    "description": "DOCEGEO - coligada a Compahia Vale do Rio Doce (CVRD)"
+  },
+  {
+    "id": 24,
+    "description": "Exacta Administradora"
+  },
+  {
+    "id": 25,
+    "description": "Fundação Biominas"
+  },
+  {
+    "id": 26,
+    "description": "Fundação de desenvolvimento da Pesquisa - FUNDEP"
+  },
+  {
+    "id": 27,
+    "description": "Hospital Madre Teresa (Cardiologia, Pneumologia, Neurologia, Clínica geral, UCO )"
+  },
+  {
+    "id": 28,
+    "description": "Hospital São José - CTI"
+  },
+  {
+    "id": 29,
+    "description": "Iris Chaves Representações Ltda"
+  },
+  {
+    "id": 30,
+    "description": "Jason Advogados"
+  },
+  {
+    "id": 31,
+    "description": "Karambi alimentos"
+  },
+  {
+    "id": 32,
+    "description": "KRK Hidroserv Ltda"
+  },
+  {
+    "id": 33,
+    "description": "Legno Ltda - Estruturas de montagem de blocos de vidro em madeira"
+  },
+  {
+    "id": 34,
+    "description": "Léucio Leonardo - Advogados Associados"
+  },
+  {
+    "id": 35,
+    "description": "Maxminas - Automação comercial, balanças eletrônicas e equipamentos PDV"
+  },
+  {
+    "id": 36,
+    "description": "Maxtec - Comércio de Equipamentos de Automação Comercial"
+  },
+  {
+    "id": 37,
+    "description": "MCE - Engenharia e Consultoria Ltda"
+  },
+  {
+    "id": 38,
+    "description": "MedFet - Centro Mineiro de Medicina Fetal"
+  },
+  {
+    "id": 39,
+    "description": "Montele - Indústria de elevadores"
+  },
+  {
+    "id": 40,
+    "description": "NEFRON - Clínica de Nefrologia de Minas Gerais"
+  },
+  {
+    "id": 41,
+    "description": "Neves e Villamil Advogados"
+  },
+  {
+    "id": 42,
+    "description": "Núcleo de Nefrologia de Belo Horizonte"
+  },
+  {
+    "id": 43,
+    "description": "Odontoloc - Consultórios odontológicos"
+  },
+  {
+    "id": 44,
+    "description": "Organizações Marinho Ltda"
+  },
+  {
+    "id": 45,
+    "description": "Padaria Boníssima"
+  },
+  {
+    "id": 46,
+    "description": "Padaria Gran Vitória"
+  },
+  {
+    "id": 47,
+    "description": "Padaria Ki Pão Bao"
+  },
+  {
+    "id": 48,
+    "description": "Padaria Vianney"
+  },
+  {
+    "id": 49,
+    "description": "Petrobrás - Refinaria Gabriel Passos (REGAP) - MG"
+  },
+  {
+    "id": 50,
+    "description": "Prefeitura Municipal de Belo Horizonte"
+  },
+  {
+    "id": 51,
+    "description": "Pró-Criar - Reprodução Humana - Hospital Mater Dei"
+  },
+  {
+    "id": 52,
+    "description": "PROERG Engenharia Ltda"
+  },
+  {
+    "id": 53,
+    "description": "Projelet - Projeto de Sistemas Prediais Ltda"
+  },
+  {
+    "id": 54,
+    "description": "RT Autocom Ltda - Prestação de serviços de informática"
+  },
+  {
+    "id": 55,
+    "description": "Remak - Intervenção em equipamentos ECF e prestação de serviços de Automação Comercial"
+  },
+  {
+    "id": 56,
+    "description": "Restaurante Mala e Cuia"
+  },
+  {
+    "id": 57,
+    "description": "RST - Montagens Eletromecânicas Ltda"
+  },
+  {
+    "id": 58,
+    "description": "Samor Comércio de Papéis Ltda"
+  },
+  {
+    "id": 59,
+    "description": "Solução Industrial - Equipamentos de proteção Individual (EPI) e Serviços"
+  },
+  {
+    "id": 60,
+    "description": "SME - Sociedade Mineira de Engenheiros"
+  },
+  {
+    "id": 61,
+    "description": "SAE - Serra Azul Engenharia"
+  },
+  {
+    "id": 62,
+    "description": "Talk&Music Hyper Bar"
+  },
+  {
+    "id": 63,
+    "description": "Turbocam Turbo Para Caminhoes Diesel Ltda"
+  },
+  {
+    "id": 64,
+    "description": "Tolentino Advogados"
+  },
+  {
+    "id": 65,
+    "description": "UroMaster - Centro de Urologia"
+  },
+  {
+    "id": 66,
+    "description": "Mercedes-Benz do Brasil"
+  },
+  {
+    "id": 67,
+    "description": "CAOA - Montadora de Veículos"
+  },
+  {
+    "id": 68,
+    "description": "Alfamed Sistemas Medicos Ltda"
+  },
+  {
+    "id": 69,
+    "description": "Elekeiroz S. A."
+  },
+  {
+    "id": 70,
+    "description": "Calixro e Dias Serviços Ltda - Estruturas metálicas"
+  },
+  {
+    "id": 71,
+    "description": "F.L.Smidth Ltda - Prestadora de serviços da CVRD"
+  },
+  {
+    "id": 72,
+    "description": "Lafaete - Uniao Comercial Barao S/A Locacao e Empreendimentos"
+  },
+  {
+    "id": 73,
+    "description": "JM Limas Servicos LTDA - Estruturas metálicas"
+  }
+]
