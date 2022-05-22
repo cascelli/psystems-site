@@ -11,12 +11,17 @@ export default function Home() {
       <Paragraph>
         Fundada em 1997, A Power Systems desenvolve e disponibiliza soluções de
         ponta em informática para atender aos seus clientes integralmente.
+      </Paragraph>
+      <Paragraph>
         Fornecemos produtos e serviços com profissionais de alta qualidade, que
-        caracterizam a solução de futuro tecnológico do mercado ao cliente.
-        Utilizamos ferramentas tecnológicas atualizadas com a realidade do
-        mercado visando uma maior qualidade, velocidade e interconectividade com
-        o mundo exterior. Através de parcerias, prestamos serviços nas seguites
-        áreas :
+        caracterizam a solução de futuro tecnológico do mercado.
+      </Paragraph>
+      <Paragraph>
+        Utilizamos ferramentas atualizadas visando uma maior qualidade,
+        velocidade e interconectividade com o mundo exterior.
+      </Paragraph>
+      <Paragraph>
+        Através de parcerias, prestamos serviços nas seguites áreas :
       </Paragraph>
       <ul>
         <li>Consultoria e planejamento empresarial</li>
@@ -35,8 +40,8 @@ export default function Home() {
           empresariais pela internet
         </li>
         <li>
-          Consultoria em cloud computing (nuvem corporativa privativa hospedada
-          dentro do próprio ambiente empresarial)
+          Consultoria em private cloud computing (nuvem corporativa privativa
+          hospedada dentro do próprio ambiente empresarial)
         </li>
         <li>
           Aplicativos voltados para automações de empresas de serviços,
@@ -54,16 +59,12 @@ export default function Home() {
       </ul>
       <Title level={4}>Aplicativos</Title>
       <Paragraph>
-        Selecione uma das categorias abaixo para obter informações sobe as
-        soluções desenvolvidas pela Power Systems que melhor se encaixem no tipo
-        de atividade exercida por você ou sua empresa. Para pesquisar
-        diretamente nossas soluções, selecione a opção Aplicativos do menu de
-        opções. Os nossos softwares são bastante flexíveis e possuem a
-        característica de se adaptarem com grande facilidade a necessidades
-        distintas. Tenha disponível à suas mãos, de qualquer local, a qualquer
-        hora, a qualquer dia, acesso a seus dados de maneira rápida, fácil,
-        eficiente e segura. Com as novas tecnologias de acesso remoto
-        disponíveis, pode-se :
+        Selecione a opção Aplicativos do menu de opções. Os nossos softwares são
+        bastante flexíveis e possuem a característica de se adaptarem com grande
+        facilidade a necessidades distintas. Tenha disponível à suas mãos, de
+        qualquer local, a qualquer hora, a qualquer dia, acesso a seus dados de
+        maneira rápida, fácil, eficiente e segura. Com as novas tecnologias de
+        acesso remoto disponíveis, pode-se :
       </Paragraph>
       <ul>
         <li>
@@ -89,9 +90,7 @@ export default function Home() {
         <li>
           A redução de custos na empresa poderá ser reduzida, uma vez que os
           equipamentos de acesso remoto podem ser máquinas com baixo poder de
-          processamento (Um microcomputador com 64 Megabytes de memória RAM e
-          clock de 500 Mhz são suficientes para executar nossos aplicativos
-          remotamente).
+          processamento
         </li>
         <li>
           Pode-se utilizar Linux nas estações e evitar gastos desnecessários com
@@ -104,8 +103,8 @@ export default function Home() {
         </li>
         <li>
           O processo de atualização de novas versões dos aplicativos se torna
-          mais fácil e rápido uma vez que, estando o banco de dados armazenado
-          diretamente em nosso servidor, torna os processos de manutenção e
+          mais fácil e rápido uma vez que, estando toda a infraestrutura
+          hospedada diretamente no servidor, torna os processos de manutenção e
           atualização mais rápidos.
         </li>
         <li>
@@ -118,18 +117,13 @@ export default function Home() {
           ocorrendo.
         </li>
         <li>
-          Conexões a cabo, com modems ADSL ou mesmo discadas com modem de até
-          28800 kbps podem ser utilizadas para acesso remoto ao seu aplicativo.
-          Quanto maior a velocidade de conexão, maior a eficiência e qualidade
-          das imagens. Com conexões à Internet de 256 kbps de velocidade de
-          transferência de dados, você terá à sua disposição a imagem das telas
-          praticamente idênticas a uma conexão local. Quanto a velocidade de
-          processamento do aplicativo e geração de relatórios, será maior do que
-          se você estivesse em sua rede local, uma vez que nosso servidor é
-          inteiramente dedicado a hospedagem de banco de dados.
+          Conexões de internet de baixa velocidade podem ser utilizadas para
+          acesso remoto ao seu aplicativo por utilizarmos protocolo leve de
+          comunicação
         </li>
         Para maiores informações, acesse as demonstrações dos nossos
-        aplicativos, diretamente de nosso servidor para avaliá-los melhor.
+        aplicativos, diretamente de nosso servidor de demonstração para
+        avaliá-los melhor.
       </ul>
     </>
   );

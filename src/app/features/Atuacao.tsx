@@ -19,7 +19,7 @@ export default function Atuacao() {
         </li>
         <li>Desenvolvimento de aplicativos integrados com a Internet.</li>
         <li>
-          Suporte aos ambientes MS-DOS, Windows e Linux:
+          Suporte aos ambientes Windows e Linux:
           <ul>
             <li>Instalação de sistema operacional.</li>
             <li>Instalação de impressoras.</li>
