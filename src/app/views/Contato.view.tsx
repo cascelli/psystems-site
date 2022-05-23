@@ -11,7 +11,8 @@ function ContatoView() {
           Para maiores informações, entre em contato conosco. Teremos o maior
           prazer em lhe receber e esclarecer dúvidas ou demandas existentes.
           Nossa equipe técnica poderá realizar uma análise de suas necessidades
-          específicas e oferecer opções de soluções que possam lhe atender.
+          específicas e oferecer opções de soluções que possam lhe atender de
+          maneira mais adequada.
         </Paragraph>
         <Title level={4}>Endereço</Title>
         <Paragraph>Avenida Raja Gabáglia, 1001 - Sala 602/A</Paragraph>
