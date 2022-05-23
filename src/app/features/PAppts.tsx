@@ -24,13 +24,47 @@ export default function PAppts() {
       <Title level={5}>Módulos do sistema</Title>
       <ul>
         <li>
-          Automação de escritório: Agenda, Calculadora integrada, Calendário
-          perpétuo, Envio de memorandos e mensagens, datas importantes, Controle
-          de tarefas e controle simplificado de Fluxo de caixa.
+          <b>Automação de escritório</b> Calculadora integrada, documentos
+          auxiliares, calendário perpétuo para agendamento de compromissos por
+          usuário, envio de memorandos e mensagens entre usuários, datas
+          importantes, contrôle de tarefas, caderno particular de endereços,
+          contrôle simplificado de fluxo de caixa.
         </li>
+        <li>Geração de relatórios de fichas :</li>
+        <ul>
+          <li>Filtrado por caracteres iniciais do nome</li>
+          <li>Por tipo (Pessoa Física ou Jurídica)</li>
+          <li>
+            Por tipo de ficha (cliente, fornecedor, banco, transportadora, etc)
+          </li>
+          <li>
+            Por ramo de atividade (suprimentos, informática, alimentos,
+            construção, etc)
+          </li>
+          <li>Por estado da federação</li>
+          <li>Por cidade</li>
+          <li>Por data de anivesário/fundação</li>
+        </ul>
+        <li>Geração de relatórios de compromissos :</li>
+        <ul>
+          <li>Por agenda</li>
+          <li>Todas agendas</li>
+          <li>Compromissos do dia</li>
+          <li>Compromissos da semana</li>
+          <li>Compromissos do período</li>
+          <li>Compromissos cumpridos, não cumpridos ou todos</li>
+          <li>Compromissos públicos, particulares ou todos</li>
+        </ul>
+        <li>Geração de relatórios diversos :</li>
+        <ul>
+          <li>Tarefas</li>
+          <li>Controle financeiro de receitas/despesas</li>
+          <li>Tabelas diversas do sistema</li>
+        </ul>
+
         <li>
-          Gerência do Sistema: Controle de Usuários e senhas com definição de
-          Grupos de trabalho e permissões de acesso.
+          <b>Gerência do Sistema</b> Contrôle de usuários e senhas com definição
+          de grupos de trabalho e permissões de acesso.
         </li>
       </ul>
       <Title level={5}>Características Gerais</Title>
@@ -43,7 +77,10 @@ export default function PAppts() {
           Visualização dos dados em forma de tela cheia ou tabular com
           possibilidade de filtragem de registros e de impressão dos mesmos.
         </li>
-        <li>Funcionamento integrado com Word, Excel, Mail, etc</li>
+        <li>
+          Funcionamento integrado com Word, Excel, Mail, etc para exportação de
+          dados tabulares ou de relatórios pré-formatados.
+        </li>
       </ul>
       <Title level={5}>Características Técnicas</Title>
       <ul>

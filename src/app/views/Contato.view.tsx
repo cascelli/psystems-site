@@ -7,9 +7,10 @@ function ContatoView() {
   return (
     <Row>
       <Col span={24}>
+        <Title level={4}>Contato</Title>
         <Paragraph>
           Para maiores informações, entre em contato conosco. Teremos o maior
-          prazer em lhe receber e esclarecer dúvidas ou demandas existentes.
+          prazer em lhe atender e esclarecer dúvidas ou demandas existentes.
           Nossa equipe técnica poderá realizar uma análise de suas necessidades
           específicas e oferecer opções de soluções que possam lhe atender de
           maneira mais adequada.

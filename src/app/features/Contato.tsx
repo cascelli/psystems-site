@@ -28,8 +28,8 @@ export default function Contato() {
 
   return (
     <>
-      <div>ToDo: Contato - Feature</div>
-      <div dangerouslySetInnerHTML={createMarkup()} />;
+      {/* <div>ToDo: Contato - Feature</div> */}
+      {/* <div dangerouslySetInnerHTML={createMarkup()} />; */}
     </>
   );
 }
