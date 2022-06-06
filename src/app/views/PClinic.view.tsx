@@ -6,10 +6,10 @@ const { Title, Paragraph } = Typography;
 function PClinicView() {
   return (
     <Row>
-      <Col span={24}>
+      {/* <Col span={24}>
         <Title level={4}>Power Clinic</Title>
         <Paragraph>Este é o conteúdo da página PClinic.view</Paragraph>
-      </Col>
+      </Col> */}
       <Col span={24}>
         <PClinic />
       </Col>
