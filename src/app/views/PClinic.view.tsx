@@ -1,7 +1,8 @@
-import { Col, Row, Typography } from 'antd';
+// import { Col, Row, Typography } from 'antd';
+import { Col, Row } from 'antd';
 import PClinic from '../features/PClinic';
 
-const { Title, Paragraph } = Typography;
+// const { Title, Paragraph } = Typography;
 
 function PClinicView() {
   return (
