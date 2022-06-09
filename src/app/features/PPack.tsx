@@ -286,7 +286,7 @@ export default function PPack() {
       </ul>
       <Title level={4}>Opções de utilização</Title>
       <Paragraph>
-        O Power Clinic permite o seu uso de acordo com sua necessidade:
+        O Power Pack permite o seu uso de acordo com sua necessidade:
       </Paragraph>
       <ul>
         <li>

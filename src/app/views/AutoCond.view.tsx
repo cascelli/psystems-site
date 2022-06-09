@@ -7,7 +7,7 @@ function AutoCondView() {
   return (
     <Row>
       <Col span={24}>
-        <Title level={4}>Auto Cond</Title>
+        <Title level={4}>Automação de Condomínio</Title>
         <Paragraph>Este é o conteúdo da página AutoCond.view</Paragraph>
       </Col>
       <Col span={24}>

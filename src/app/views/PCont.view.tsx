@@ -7,7 +7,7 @@ function PContView() {
   return (
     <Row>
       <Col span={24}>
-        <Title level={4}>Power Contabil</Title>
+        <Title level={4}>Power Contábil</Title>
         <Paragraph>Este é o conteúdo da página PCont.view</Paragraph>
       </Col>
       <Col span={24}>

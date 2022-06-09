@@ -21,6 +21,7 @@ import PProcView from './views/PProc.view';
 import PFAView from './views/PFA.view';
 import AutoCondView from './views/AutoCond.view';
 import PContView from './views/PCont.view';
+import EmpVirtualView from './views/EmpVirtual.view';
 
 export default function Routes() {
   return (
@@ -39,6 +40,11 @@ export default function Routes() {
       <Route path={'/aplicativos/pproc'} exact component={PProcView} />
       <Route path={'/aplicativos/pfa'} exact component={PFAView} />
       <Route path={'/aplicativos/autocond'} exact component={AutoCondView} />
+      <Route
+        path={'/aplicativos/empvirtual'}
+        exact
+        component={EmpVirtualView}
+      />
       <Route path={'/aplicativos/pcont'} exact component={PContView} />
       <Route path={'/clientes'} exact component={ClientesView} />
       <Route path={'/contato'} exact component={ContatoView} />

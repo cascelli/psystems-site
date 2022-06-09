@@ -141,6 +141,14 @@ export default function DefaultLayoutSidebar() {
           >
             <Link to={'/aplicativos/autocond'}>Aut. Condomínio</Link>
           </Menu.Item>
+
+          <Menu.Item
+            key='/aplicativos/empvirtual'
+            onClick={() => history.push('/aplicativos/empvirtual')}
+            icon={<CloudOutlined />}
+          >
+            <Link to={'/aplicativos/empvirtual'}>Empresa virtual</Link>
+          </Menu.Item>
         </SubMenu>
 
         <Menu.Item
