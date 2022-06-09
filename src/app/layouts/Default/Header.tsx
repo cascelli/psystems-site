@@ -72,6 +72,7 @@ export default function DefaultLayoutHeader() {
             {'|'}
             <a
               href='https://guacamole.apache.org/'
+              //href='https://whyconsultoria.dyndns.org:8443/'
               target='_blank'
               rel='noreferrer'
             >
@@ -81,6 +82,7 @@ export default function DefaultLayoutHeader() {
             {'|'}
             <a
               href='https://nextcloud.com'
+              //href='https://whyconsultoria.dyndns.org:50443/'
               target='_blank'
               rel='noreferrer'
             >

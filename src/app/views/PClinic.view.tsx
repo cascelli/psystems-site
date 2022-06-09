@@ -11,6 +11,11 @@ function PClinicView() {
         <Title level={4}>Power Clinic</Title>
         <Paragraph>Este é o conteúdo da página PClinic.view</Paragraph>
       </Col> */}
+
+      {/* <Col span={24}>
+        <PClinicCarousel />
+      </Col> */}
+
       <Col span={24}>
         <PClinic />
       </Col>

@@ -9,6 +9,11 @@ function PApptsView() {
   return (
     <Row>
       {/* <Col span={24}>
+        <Title level={4}>Power Appoints</Title>
+        <Paragraph>Este é o conteúdo da página PAppts.view</Paragraph>
+      </Col> */}
+
+      {/* <Col span={24}>
         <PApptsCarousel />
       </Col> */}
 

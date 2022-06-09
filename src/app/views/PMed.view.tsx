@@ -13,6 +13,11 @@ function PMedView() {
         <Title level={4}>Power Med</Title>
         <Paragraph>Este é o conteúdo da página PMed.view</Paragraph>
       </Col> */}
+
+      {/* <Col span={24}>
+        <PMedCarousel />
+      </Col> */}
+
       <Col span={24}>
         <PMed />
       </Col>

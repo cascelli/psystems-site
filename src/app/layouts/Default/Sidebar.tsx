@@ -186,7 +186,8 @@ export default function DefaultLayoutSidebar() {
         >
           <a
             // Criando link para site externo a partir de item do menu
-            href='https://nextcloud.com'
+            //href='https://nextcloud.com'
+            href='https://whyconsultoria.dyndns.org:50443/'
             target='_blank'
             rel='noreferrer'
           >
@@ -202,7 +203,8 @@ export default function DefaultLayoutSidebar() {
         >
           <a
             // Criando link para site externo a partir de item do menu
-            href='https://guacamole.apache.org/'
+            //href='https://guacamole.apache.org/'
+            href='https://whyconsultoria.dyndns.org:8443'
             target='_blank'
             rel='noreferrer'
           >

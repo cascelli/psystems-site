@@ -11,6 +11,11 @@ function PProcView() {
         <Title level={4}>Power Process</Title>
         <Paragraph>Este é o conteúdo da página PProc.view</Paragraph>
       </Col> */}
+
+      {/* <Col span={24}>
+        <PProcCarousel />
+      </Col> */}
+
       <Col span={24}>
         <PProc />
       </Col>

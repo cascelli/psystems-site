@@ -8,6 +8,11 @@ function EmpVirtualView() {
   return (
     <Row>
       {/* <Col span={24}>
+        <Title level={4}>Empresa Virtual</Title>
+        <Paragraph>Este é o conteúdo da página EmpVirtual.view</Paragraph>
+      </Col> */}
+
+      {/* <Col span={24}>
         <EmpVirtualCarousel />
       </Col> */}
 

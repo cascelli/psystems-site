@@ -11,6 +11,11 @@ function PPackView() {
         <Title level={4}>Power Pack</Title>
         <Paragraph>Este é o conteúdo da página PPack.view</Paragraph>
       </Col> */}
+
+      {/* <Col span={24}>
+        <PPackCarousel />
+      </Col> */}
+
       <Col span={24}>
         <PPack />
       </Col>
