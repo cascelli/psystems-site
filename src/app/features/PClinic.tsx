@@ -92,7 +92,6 @@ export default function PClinic() {
           Itaú, Bradesco e Banco do Brasil.
         </li>
       </ul>
-
       <Title level={5}>Módulos do sistema</Title>
       <ul>
         <li>
@@ -392,6 +391,9 @@ export default function PClinic() {
           para prosseguir.
         </li>
       </ul>
+      <Paragraph>
+        Entre em contato conosco para obter maiores informações.
+      </Paragraph>{' '}
     </>
   );
 }

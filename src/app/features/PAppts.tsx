@@ -143,6 +143,9 @@ export default function PAppts() {
           para prosseguir.
         </li>
       </ul>
+      <Paragraph>
+        Entre em contato conosco para obter maiores informações.
+      </Paragraph>
     </>
   );
 }

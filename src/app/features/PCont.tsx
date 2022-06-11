@@ -28,7 +28,7 @@ export default function PCont() {
         de impostos mensais e documentos simples para esta categoria de cliente
         que, normalmente, geram baixos volumes de trabalho nos escritórios.
       </Paragraph>
-      <Paragraph>O aplicativo consiste de doi módulos distintos :</Paragraph>
+      <Paragraph>O aplicativo consiste de dois módulos distintos :</Paragraph>
       <ul>
         <li>
           <b>Web</b> Acessível pela internet através de um navegador pelas
@@ -164,6 +164,9 @@ export default function PCont() {
           para prosseguir.
         </li>
       </ul>
+      <Paragraph>
+        Entre em contato conosco para obter maiores informações.
+      </Paragraph>
     </>
   );
 }
