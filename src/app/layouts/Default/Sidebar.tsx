@@ -162,15 +162,6 @@ export default function DefaultLayoutSidebar() {
 
         <Menu.Item
           // key={'1'}
-          key={'/contato'}
-          onClick={() => history.push('/contato')}
-          icon={<IdcardOutlined />}
-        >
-          <Link to={'/contato'}>Contato</Link>
-        </Menu.Item>
-
-        <Menu.Item
-          // key={'1'}
           key={'/sites'}
           onClick={() => history.push('/sites')}
           icon={<GlobalOutlined />}
@@ -210,6 +201,15 @@ export default function DefaultLayoutSidebar() {
           >
             Corporativo
           </a>
+        </Menu.Item>
+
+        <Menu.Item
+          // key={'1'}
+          key={'/contato'}
+          onClick={() => history.push('/contato')}
+          icon={<IdcardOutlined />}
+        >
+          <Link to={'/contato'}>Contato</Link>
         </Menu.Item>
 
         {/* <SubMenu
