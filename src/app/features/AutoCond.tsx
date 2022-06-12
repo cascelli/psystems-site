@@ -44,6 +44,29 @@ export default function AutoCond() {
       <Title level={5}>Módulos do sistema</Title>
       <ul>
         <li>
+          <b>Saudações</b> Tela inicial de saudações aos visitantes/condôminos
+          com informações básicas.
+        </li>
+        <li>
+          <b>Novatos</b> Tela com informações úteis aos novos ocupantes para
+          facilitar a integração dos mesmos e escalrecimentos básicos.
+        </li>
+        <li>
+          <b>Avisos</b> Tela de avisos recentes importantes aos condôminos
+          enviadas pelo síndico/gerentes/administradora.
+        </li>
+        <li>
+          <b>Lites e telefones úteis</b> Lista útil de acesso rápido a sites e
+          telefones na rotina do condomínio.
+        </li>
+        <li>
+          <b>Contato</b> Dados para contato e acesso ao condomínio e
+          administradora contratada
+        </li>
+        <li>
+          <b></b>
+        </li>
+        <li>
           <b>Cadastro Geral</b> Cadastro de Condôminos, proprietários e seus
           ocupantes ou contatos, prestadores de serviço, funcionários, etc
         </li>
@@ -70,11 +93,13 @@ export default function AutoCond() {
           através da informação de link quando estiverem disponíveis na internet
           de uma maneira geral.
         </li>
-        <li>
+
+        {/* <li>
           <b>Links e referências úteis</b> Cadastro de links, telefones e
           referências úteis disponibilizado para acesso por meio de listagem
           para consulta imediata, em caso de necessidade.
-        </li>
+        </li> */}
+
         <li>
           <b>Gerência do Sistema</b> O acesso aos cadastros e documentos
           necessita de contrôle de usuários e senhas com definição de grupos de

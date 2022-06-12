@@ -1,6 +1,7 @@
 // import { Menu, Layout, Row, Avatar } from 'antd';
 import { Layout, Row, Avatar, Space } from 'antd';
-import logo from '../../../assets/logo.svg';
+//import logo from '../../../assets/logo.svg';
+import logo from '../../../assets/pslogo-pb.jpg';
 
 const { Header } = Layout; // Primeiro importa o Layout e depois desconstroi o Header do Layout
 
@@ -55,7 +56,7 @@ export default function DefaultLayoutHeader() {
         }}
         align='middle'
       >
-        <img src={logo} alt='Alganews Admin'></img>
+        <img src={logo} alt='Alganews Admin' style={{ height: '50%' }}></img>
 
         <span style={{ color: 'darkblue' }}>
           {/* Define um espacamento entre os elementos */}
