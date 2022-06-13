@@ -17,20 +17,27 @@ export default function PAppts() {
       <Title level={4}>Funcionamento</Title>
       <Paragraph>
         O Power Appoints é um aplicativo de agenda pessoal destinado ao
-        armazenamento de endereços de contatos, marcação de compromissos, datas
-        importantes, diário pessoal e controle de receitas e despesas
-        simplificado.
+        armazenamento compartilhado de fichas de pessoa física/juridica
+        categorizáveis por tipo (Cliente, Fornecedor, Funcionário, Contato,
+        transportadora, etc) e ramos de atividade com possibilidade de
+        vinculação de documentos diversos, contatos, controle e histórico de
+        agendamentos de compromissos, um cadastro particular de endereços de
+        contatos, marcação de compromissos, datas importantes, diário pessoal e
+        controle de receitas e despesas simplificado.
       </Paragraph>
       <Title level={5}>Módulos do sistema</Title>
       <ul>
         <li>
           <b>Automação de escritório</b> Calculadora integrada, documentos
-          auxiliares, calendário perpétuo para agendamento de compromissos por
-          usuário, envio de memorandos e mensagens entre usuários, datas
-          importantes, contrôle de tarefas, caderno particular de endereços,
-          contrôle simplificado de fluxo de caixa.
+          auxiliares de acesso compartilhado entre os usuários, calendário
+          perpétuo para agendamento de compromissos por usuário, envio de
+          memorandos e mensagens entre usuários, datas importantes, contrôle de
+          tarefas, caderno particular de endereços, contrôle particular
+          simplificado de fluxo de caixa.
         </li>
-        <li>Geração de relatórios de fichas :</li>
+        <li>
+          <b>Geração de relatórios de fichas</b>
+        </li>
         <ul>
           <li>Filtrado por caracteres iniciais do nome</li>
           <li>Por tipo (Pessoa Física ou Jurídica)</li>
@@ -45,7 +52,9 @@ export default function PAppts() {
           <li>Por cidade</li>
           <li>Por data de anivesário/fundação</li>
         </ul>
-        <li>Geração de relatórios de compromissos :</li>
+        <li>
+          <b>Geração de relatórios de compromissos</b>
+        </li>
         <ul>
           <li>Por agenda</li>
           <li>Todas agendas</li>
@@ -55,7 +64,9 @@ export default function PAppts() {
           <li>Compromissos cumpridos, não cumpridos ou todos</li>
           <li>Compromissos públicos, particulares ou todos</li>
         </ul>
-        <li>Geração de relatórios diversos :</li>
+        <li>
+          <b>Geração de relatórios diversos</b>
+        </li>
         <ul>
           <li>Tarefas</li>
           <li>Controle financeiro de receitas/despesas</li>
