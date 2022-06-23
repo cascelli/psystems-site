@@ -37,7 +37,10 @@ export default function PMed() {
           auxiliares, calendário perpétuo para agendamento de compromissos por
           usuário, envio de memorandos e mensagens entre usuários, datas
           importantes, contrôle de tarefas, caderno particular de endereços,
-          contrôle simplificado de fluxo de caixa.
+          contrôle simplificado de fluxo de caixa. Este módulo corresponde ao
+          mesmo do aplicativo Power Appoints. Porém, com algumas nuances
+          adicionais especificamente ajustadas para o perfil de consultórios.
+          Para mais detalhes, consulte o aplicativo Power Appoints.
         </li>
         <li>
           <b>Cadastro de pacientes</b> Dados pessoais, endereço, histórico de

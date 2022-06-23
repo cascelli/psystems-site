@@ -1,10 +1,9 @@
 // import { Col, Row, Typography } from 'antd';
 import { Col, Row } from 'antd';
 import PMed from '../features/PMed';
+import PMedCarousel from '../features/PMedCarousel';
 
 // const { Title, Paragraph } = Typography;
-
-// todo: implementar carousel para mostrar telas do aplicativo
 
 function PMedView() {
   return (
@@ -14,9 +13,9 @@ function PMedView() {
         <Paragraph>Este é o conteúdo da página PMed.view</Paragraph>
       </Col> */}
 
-      {/* <Col span={24}>
+      <Col span={24}>
         <PMedCarousel />
-      </Col> */}
+      </Col>
 
       <Col span={24}>
         <PMed />
