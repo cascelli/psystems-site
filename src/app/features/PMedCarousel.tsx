@@ -31,6 +31,9 @@ import pmedCadastroMedicoCapacitacao from '../../assets/images/pmed/pmed-cadastr
 import pmedCadastroMedicoAgenda from '../../assets/images/pmed/pmed-cadastro-medico-agenda.jpg';
 import pmedCadastroMedicoCarimbo from '../../assets/images/pmed/pmed-cadastro-medico-carimbo.jpg';
 
+import pmedCadastroPessoaFisicaJuridicaGeral from '../../assets/images/pmed/pmed-cadastro-pessoa-fisica-juridica-geral.jpg';
+import pmedCadastroPessoaFisicaJuridicaEnderecos from '../../assets/images/pmed/pmed-cadastro-pessoa-fisica-juridica-enderecos.jpg';
+
 import pmedCadastroFrasesPadrao from '../../assets/images/pmed/pmed-cadastro-frases-padrao.jpg';
 
 import pmedCompromissoCadastroEdicao from '../../assets/images/pmed/pmed-compromisso-cadastro-edicao.jpg';
@@ -47,6 +50,29 @@ import pmedSetupDaEstacao from '../../assets/images/pmed/pmed-setup-da-estacao.j
 import pmedUsuarios from '../../assets/images/pmed/pmed-usuarios.jpg';
 import pmedGruposDePermissoes from '../../assets/images/pmed/pmed-grupos-de-permissoes.jpg';
 import pmedInfoBaseDeDados from '../../assets/images/pmed/pmed-info-base-de-dados.jpg';
+
+import pmedCadastroAplicativosExternos from '../../assets/images/pmed/pmed-cadastro-aplicativos-externos.jpg';
+
+import pmedCadastroConvenios from '../../assets/images/pmed/pmed-cadastro-convenios.jpg';
+import pmedCadastroDiagnosticosAnatomicos from '../../assets/images/pmed/pmed-cadastro-diagnosticos-anatomicos.jpg';
+import pmedCadastroDiagnosticosEtiologicos from '../../assets/images/pmed/pmed-cadastro-diagnosticos-etiologicos.jpg';
+import pmedCadastroDiagnosticosNosologicos from '../../assets/images/pmed/pmed-cadastro-diagnosticos-nosologicos.jpg';
+import pmedCadastroDiagnosticosOutros from '../../assets/images/pmed/pmed-cadastro-diagnosticos-outros.jpg';
+import pmedCadastroFuncoesDeMedicos from '../../assets/images/pmed/pmed-cadastro-funcoes-de-medicos.jpg';
+import pmedCadastroMeiosPagto from '../../assets/images/pmed/pmed-cadastro-meios-pagto.jpg';
+import pmedCadastroRamosAtividade from '../../assets/images/pmed/pmed-cadastro-ramos-atividade.jpg';
+import pmedCadastroTiposFicha from '../../assets/images/pmed/pmed-cadastro-tipos-ficha.jpg';
+
+import pmedDocumentosAuxiliaresCompartilhados from '../../assets/images/pmed/pmed-documentos-auxiliares-compartilhados.jpg';
+import pmedEnderecosParticularesAdicionarLocalizar from '../../assets/images/pmed/pmed-enderecos-particulares-adicionar-localizar.jpg';
+import pmedEnderecosParticulares from '../../assets/images/pmed/pmed-enderecos-particulares-adicionar-localizar.jpg';
+import pmedEstatisticasCirurgias from '../../assets/images/pmed/pmed-estatisticas-cirurgias.jpg';
+import pmedListaTelefonica from '../../assets/images/pmed/pmed-lista-telefonica.jpg';
+import pmedRelatoriosFichario from '../../assets/images/pmed/pmed-relatorios-fichario.jpg';
+
+import pmedCadastros from '../../assets/images/pmed/pmed-cadastros.jpg';
+import pmedEstatisticas from '../../assets/images/pmed/pmed-estatisticas.jpg';
+import pmedListagensCruzadas from '../../assets/images/pmed/pmed-listagens-cruzadas.jpg';
 
 const contentStyleTitle: React.CSSProperties = {
   height: '50px',
@@ -371,6 +397,33 @@ export default function PApptsCarousel() {
           Cadastro de médicos - Configuração de carimbo
         </h4>
       </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedCadastroPessoaFisicaJuridicaGeral}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>
+          Cadastro - Pessoa Física/Jurídica - Dados gerais
+        </h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedCadastroPessoaFisicaJuridicaEnderecos}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>
+          Cadastro - Pessoa Física/Jurídica - Endereços
+        </h4>
+      </div>
+
       <div>
         <Row>
           <img
@@ -480,6 +533,202 @@ export default function PApptsCarousel() {
           <img style={contentStyleImage} src={pmedInfoBaseDeDados} alt=''></img>
         </Row>
         <h4 style={contentStyleTitle}>Informações da base de dados</h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedCadastroAplicativosExternos}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Cadastro - Aplicativos externos</h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedCadastroConvenios}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Cadastro - Convênios médicos</h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedCadastroDiagnosticosAnatomicos}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Cadastro - Diagnósticos anatômicos</h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedCadastroDiagnosticosEtiologicos}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Cadastro - Diagnósticos etiológicos</h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedCadastroDiagnosticosNosologicos}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Cadastro - Diagnósticos nosológicos</h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedCadastroDiagnosticosOutros}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Cadastro - Outros diagnósticos</h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedCadastroFuncoesDeMedicos}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Cadastro - Funções de médicos</h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedCadastroMeiosPagto}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Cadastro - Meios de pagamento</h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedCadastroRamosAtividade}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Cadastro - Ramos de atividade</h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedCadastroTiposFicha}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Cadastro - Tipos de ficha</h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedDocumentosAuxiliaresCompartilhados}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>
+          Cadastro - Documentos auxiliares compartilhados
+        </h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedEnderecosParticularesAdicionarLocalizar}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>
+          Endereços particulares - Adicionar/Localizar
+        </h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedEnderecosParticulares}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Endereços particulares</h4>
+      </div>
+
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedEstatisticasCirurgias}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Esttisticas - Cirurgias</h4>
+      </div>
+      <div>
+        <Row>
+          <img style={contentStyleImage} src={pmedListaTelefonica} alt=''></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Lista telefônica</h4>
+      </div>
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedRelatoriosFichario}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Relatorios - Fichário</h4>
+      </div>
+      <div>
+        <Row>
+          <img style={contentStyleImage} src={pmedCadastros} alt=''></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Menu - Cadastros</h4>
+      </div>
+      <div>
+        <Row>
+          <img style={contentStyleImage} src={pmedEstatisticas} alt=''></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Menu - Estatisticas</h4>
+      </div>
+      <div>
+        <Row>
+          <img
+            style={contentStyleImage}
+            src={pmedListagensCruzadas}
+            alt=''
+          ></img>
+        </Row>
+        <h4 style={contentStyleTitle}>Menu - Listagens cruzadas</h4>
       </div>
     </Carousel>
   );
