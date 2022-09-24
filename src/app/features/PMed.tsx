@@ -9,7 +9,7 @@ export default function PMed() {
     <>
       <Title level={4}>Power Med</Title>
       <Paragraph>
-        Aplicativo básico de de gerenciamento de pacientes para pequenos
+        Aplicativo básico de gerenciamento de pacientes para pequenos
         consultórios.
       </Paragraph>
       <Paragraph>
