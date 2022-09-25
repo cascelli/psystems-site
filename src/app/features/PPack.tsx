@@ -322,7 +322,7 @@ export default function PPack() {
         demonstração nada mais é do que o aplicativo em si com uma pequena
         quantidade de registros.
       </Paragraph>
-      <ul>
+      {/* <ul>
         <li>
           Selecione o link <b>Corporativo</b> disponível no menu principal para
           ter acesso a demonstração do aplicativo funcionando no modo Web a
@@ -332,7 +332,7 @@ export default function PPack() {
           Na tela de login, informe o usuário <b>ppack</b> e senha <b>teste</b>{' '}
           para prosseguir.
         </li>
-      </ul>
+      </ul> */}
       <Paragraph>
         Entre em contato conosco para obter maiores informações.
       </Paragraph>

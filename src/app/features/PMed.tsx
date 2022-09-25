@@ -189,7 +189,7 @@ export default function PMed() {
         demonstração nada mais é do que o aplicativo em si com uma pequena
         quantidade de registros.
       </Paragraph>
-      <ul>
+      {/* <ul>
         <li>
           Selecione o link <b>Corporativo</b> disponível no menu principal para
           ter acesso a demonstração do aplicativo funcionando no modo Web a
@@ -199,7 +199,7 @@ export default function PMed() {
           Na tela de login, informe o usuário <b>pmed</b> e senha <b>teste</b>{' '}
           para prosseguir.
         </li>
-      </ul>
+      </ul> */}
       <Paragraph>
         Entre em contato conosco para obter maiores informações.
       </Paragraph>

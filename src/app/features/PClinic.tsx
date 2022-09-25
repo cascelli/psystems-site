@@ -320,17 +320,16 @@ export default function PClinic() {
         <li>Geração de relatórios diversos :</li>
         <ul>
           <li>Tarefas</li>
-          <li>Controle financeiro de receitas/despesas</li>
           <li>Tabelas diversas do sistema</li>
           <li>
             Procedimentos realizados geral, por agenda (laboratório,
             fisioterapia, enfermagem, etc.) ou por profissional credenciado
           </li>
-          <li>Faturamento por empresa conveniada e/ou cliente</li>
           <li>Contas a Pagar/Receber</li>
           <li>Contas em atraso (Pagamentos/Recebimentos)</li>
-          <li>Gestão de estoque</li>
           <li>Fechamento de caixas geral ou individual por operador</li>
+          <li>Faturamento por empresa conveniada e/ou cliente</li>
+          <li>Gestão de estoque</li>
         </ul>
         <li>
           <b>Gerência do Sistema</b> Contrôle de usuários e senhas com definição
@@ -405,7 +404,7 @@ export default function PClinic() {
         demonstração nada mais é do que o aplicativo em si com uma pequena
         quantidade de registros.
       </Paragraph>
-      <ul>
+      {/* <ul>
         <li>
           Selecione o link <b>Corporativo</b> disponível no menu principal para
           ter acesso a demonstração do aplicativo funcionando no modo Web a
@@ -415,7 +414,7 @@ export default function PClinic() {
           Na tela de login, informe o usuário <b>pclin</b> e senha <b>teste</b>{' '}
           para prosseguir.
         </li>
-      </ul>
+      </ul> */}
       <Paragraph>
         Entre em contato conosco para obter maiores informações.
       </Paragraph>{' '}
