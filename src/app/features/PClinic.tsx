@@ -21,6 +21,22 @@ export default function PClinic() {
         emissão de laudos correspondentes e possibilidade de atendimento em
         pequenos procedimentos.
       </Paragraph>
+      <Paragraph>
+        Em suma, o Power Clinic é uma evolução do Power Med, possuindo as suas
+        mesmas funcionalidades e acrescentados controle financeiro (Fulxo de
+        caixa, contas à pagar e receber), estoque, módulo de laboratório com
+        marcação e emissão de laudos de exames, agendamento de procedimentos de
+        pequeno porte com controle de materiais, medicamentos, honorários, taxas
+        e valores a cobrar de convênios, podendo inclusive funcionar como uma
+        empresa de convênio cadastranto associados (Pessoa Física e/ou
+        Jurídica), dependentes, laterais, com cobrança de taxas, apuração de
+        valores e emissão de boletos bancários, além de permitir o levantamento
+        de faturamentos e honorários de seus profissionais vinculados.
+      </Paragraph>
+      <Paragraph>
+        Para maiores detalhes da parte de agendamento, cadastro de pacientes,
+        anamneses, receitas e afins, consulte o aplicativo Power Med.
+      </Paragraph>
       <Title level={4}>Funcionamento</Title>
       <Paragraph>
         Este aplicativo foi projetado para controlar as atividades de uma
@@ -306,6 +322,15 @@ export default function PClinic() {
           <li>Tarefas</li>
           <li>Controle financeiro de receitas/despesas</li>
           <li>Tabelas diversas do sistema</li>
+          <li>
+            Procedimentos realizados geral, por agenda (laboratório,
+            fisioterapia, enfermagem, etc.) ou por profissional credenciado
+          </li>
+          <li>Faturamento por empresa conveniada e/ou cliente</li>
+          <li>Contas a Pagar/Receber</li>
+          <li>Contas em atraso (Pagamentos/Recebimentos)</li>
+          <li>Gestão de estoque</li>
+          <li>Fechamento de caixas geral ou individual por operador</li>
         </ul>
         <li>
           <b>Gerência do Sistema</b> Contrôle de usuários e senhas com definição
@@ -340,7 +365,7 @@ export default function PClinic() {
         <li>Um computador básico compatível com o padrão PC</li>
         <li>Sistema operacional Windows</li>
         <li>4 Gigabytes de memória RAM</li>
-        <li>Cerca de 10 Megabytes de espaço inicial requerido em disco</li>
+        <li>Cerca de 50 Megabytes de espaço inicial requerido em disco</li>
       </ul>
       <Title level={4}>Opções de utilização</Title>
       <Paragraph>
